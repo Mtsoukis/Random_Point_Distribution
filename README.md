@@ -20,8 +20,7 @@ The brute-force algorithm runs in O(n²) time, while the divide-and-conquer conv
 I plan to add the following:
 
 - What if instead of a unit square- I did this within a unit circle or triangle? Would threshold for changing algorithms be higher or lower?
-- Would the strategy outlined in main.ipynb still be the most efficient?
-- What happens if objective is to find m closest/farthest points? Using Euclidean Distance- perimeter.
+- What happens if objective is to find m, rather than just 2, closest/farthest points? Using Euclidean Distance- perimeter.
 - Suppose I want to change my definition of farthest points; I now want to select the m points forming the largest polygon possible. How does the algorithm change; How does the complexity change; how do the results change; how does this change as we increase the number of total points n and the number of points we select m? In what fraction of instances are the same points selected as when using Euclidean Distance?
 
 
